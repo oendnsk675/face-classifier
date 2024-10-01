@@ -2,3 +2,6 @@ numpy
 pillow
 torch
 torchvision
+pandas
+matplotlib
+seaborn

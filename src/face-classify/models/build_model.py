@@ -24,5 +24,8 @@ class Classifier(nn.Module):
         model = self.build_backbone()
         x = model(x)
         return x
-        
-        
+
+
+def image_recog(num_classes: int):
+    net = Classifier(num_classes).build_backbone()
+    return net
