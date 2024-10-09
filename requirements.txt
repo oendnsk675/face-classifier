@@ -5,3 +5,4 @@ torchvision
 pandas
 matplotlib
 seaborn
+lightning
